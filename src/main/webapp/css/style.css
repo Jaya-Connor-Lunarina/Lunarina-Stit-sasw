@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.social-link {
+    width: 18px;
+    height: 18px;
+    background-color: #FFD1CF ;
+    margin-right: 5px;
+}
+
+.link:nth-child(2) {
+    padding: 8px 8px;
+}
+
+.imgs {
+    margin-right: 0;
+}
