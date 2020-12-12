@@ -3,8 +3,8 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background: url("../img/Lunarina-goddess-swan-watercolor.jpg") no-repeat top;
-    background-origin: content-box;
+    /*background: url("../img/Lunarina-goddess-swan-watercolor.jpg") no-repeat top;*/
+    /*background-origin: content-box;*/
 }
 
 .social-link {
@@ -15,13 +15,18 @@ body {
 }
 
 .link {
-    font-size: .8rem;
+    font-size: .4rem;
 }
 
 .link:nth-child(2) {
-    padding: 8px 8px;
+    padding: 8px 6px;
 }
 
 .imgs {
     margin-right: 0;
+}
+
+.bg-img {
+    width: 100%;
+    position: absolute;
 }
