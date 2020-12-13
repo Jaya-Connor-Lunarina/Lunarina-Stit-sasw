@@ -50,7 +50,7 @@ body {
 
 .phone{
     float: right;
-    /*margin-right: 20px;*/
+    margin-right: 20px;
     position: absolute;
     right: 0;
     top:160px;
@@ -102,5 +102,5 @@ color: white;
 }
 
 .art img {
-    width: 100%;
+    width: 80%;
 }
