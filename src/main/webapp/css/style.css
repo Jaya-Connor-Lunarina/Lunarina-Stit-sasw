@@ -40,23 +40,6 @@ body {
     z-index: -1;
 }
 
-.art img:nth-child(2) {
-
-}
-
-#m-dial {
-    width: 65%;
-    position: relative;
-    bottom: 245px;
-}
-
-#m-dial {
-    animation: rotate 5s ease-out;
-}
-
-@keyframes rotate {
-to {transform: rotate(60deg)}
-}
 
 a {
     text-decoration: none;
