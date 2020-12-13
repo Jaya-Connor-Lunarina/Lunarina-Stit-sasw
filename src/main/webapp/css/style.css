@@ -74,7 +74,14 @@ color: white;
 }
 .joinFacebook{
     margin-top:80px;
+
 }
-.quest .free .art .shop{
+.quest{
+    margin: 35px 0;
+}
+.quest .free .dial .art .shop{
     margin: auto;
+}
+.dial{
+    margin: 35px 0;
 }
