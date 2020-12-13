@@ -10,15 +10,14 @@ bg2.hide();
 bg3.hide();
     $(window).scroll(function () {
     let currentPos = $(this).scrollTop();
-    if (currentPos >= initial.top + 50) {
+    if (currentPos >= initial.top - 25) {
         bg1.fadeOut();
         bg2.fadeIn();
     } else {
         bg1.fadeIn();
         bg2.fadeOut();
     }
-    // console.log(initial);
-})
+});
 
 
 

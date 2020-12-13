@@ -40,9 +40,30 @@ body {
     z-index: -1;
 }
 
+.art img:nth-child(2) {
+
+}
+
+#m-dial {
+    width: 65%;
+    position: relative;
+    bottom: 245px;
+}
+
+#m-dial {
+    animation: rotate 5s ease-out;
+}
+
+@keyframes rotate {
+to {transform: rotate(60deg)}
+}
+
+a {
+    text-decoration: none;
+}
+
 .phone{
     float: right;
-    /*margin-right: 20px;*/
     position: absolute;
     right: 0;
     top:160px;
@@ -82,7 +103,7 @@ color: white;
 
 }
 .quest{
-    margin: 35px 0;
+    margin: 20px 0;
 }
 .quest .free .dial .art .shop{
     margin: auto;
@@ -93,7 +114,7 @@ color: white;
     width: 100%;
 }
 .dial{
-    margin: 35px 0;
+    margin: 20px 0;
 }
 
 .art img {
