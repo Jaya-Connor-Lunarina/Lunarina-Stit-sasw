@@ -77,8 +77,11 @@ color: white;
     margin-left:15px;
     margin-top: 150px;
 }
-.fa-facebook-f1{
+
+.welcome button {
+    flex-basis: 135px;
 }
+
 .join {
    border-radius: 80px;
 }
